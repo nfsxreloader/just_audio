@@ -12,7 +12,10 @@ dependencies:
   just_audio_platform_interface: ^4.3.0
   # just_audio_platform_interface:
   #   path: ../just_audio_platform_interface
-  audio_service: ^0.18.14
+  audio_service:
+    git:
+      url: git@github.com:nfsxreloader/audio_service.git
+      ref: minor
   audio_session: ^0.1.20
   flutter:
     sdk: flutter
